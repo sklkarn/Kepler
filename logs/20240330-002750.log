@@ -11,3 +11,10 @@ INFO    : Staging latest build located in `/home/sk/Desktop/vscodes/Kepl_planet/
 INFO    : 
 INFO    : Deployment is now staged at `/home/sk/Desktop/vscodes/Kepl_planet/output/stage`.
 INFO    : Initializing project with Git.
+INFO    : Successfully initialized new Git repository!
+INFO    : 
+INFO    : Preparing to deploy from active `main` git branch.
+INFO    : 
+INFO    : Changes to project source since last commit detected.
+INFO    : Add/committing these changes to local Git repository.
+INFO    : 
