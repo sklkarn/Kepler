@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kepler's Laws of Planetary Motion</title>
+
+  <introduction>
+    <p> Johannas Kepler observed the sky for many - many years in early <m>17^{th}</m> century and gave the following three major laws.</p>
+    <ol>
+      <li>
+        <p>
+          <term>The law of orbit:</term> In Solar system, every planet revolves in an elliptical orbit having <term>Sun</term> at one of its focii.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>The law of area:</term> Planet sweeps out an equal area in equal interval of time in the orbit.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>The law of period:</term> The square of time period of planet around the sun is directly proportional to the cube of semi-major axis.
+        </p>
+      </li>
+    </ol>
+    
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-pol_cord.ptx" />
+  <xi:include href="sec-kepI_law.ptx" />
+  <xi:include href="sec-kepII_law.ptx" />
+  <xi:include href="sec-kepIII_law.ptx" />
+</chapter>

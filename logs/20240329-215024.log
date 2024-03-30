@@ -1,0 +1,37 @@
+INFO    : PreTeXt-CLI version: 2.3.9
+
+INFO    : PreTeXt project found in `/home/sk/Desktop/KeplNewt/Kepl_planet`.
+WARNING : Using CLI version 2.3.9 but project's `requirements.txt`
+WARNING : is configured to use 1.5.3. Consider either installing
+WARNING : CLI version 1.5.3 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.3.9.
+INFO    : Preparing to build into /home/sk/Desktop/KeplNewt/Kepl_planet/output/epub.
+INFO    : Attempting to install/update required node packages.
+INFO    : converting /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx into EPUB in /home/sk/Desktop/KeplNewt/Kepl_planet/output/epub with math as svg
+INFO    : discovering source file's directory name: /home/sk/Desktop/KeplNewt/Kepl_planet/source
+INFO    : converting LaTeX from /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx into svg format
+INFO    : XSL conversion of /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx by /home/sk/.ptx/xsl/support/extract-math.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/support/extract-math.xsl
+INFO    : XSL conversion of /tmp/tmpnhfbb_gh/mj-output-svg.html by /home/sk/.ptx/xsl/support/package-math.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/support/package-math.xsl
+INFO    : XML file of math representations deposited as /tmp/tmp4iasazhs/math-representations-svg.xml
+INFO    : converting LaTeX from /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx into speech format
+INFO    : XSL conversion of /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx by /home/sk/.ptx/xsl/support/extract-math.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/support/extract-math.xsl
+INFO    : XSL conversion of /tmp/tmpid0pkx51/mj-output-speech.html by /home/sk/.ptx/xsl/support/package-math.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/support/package-math.xsl
+INFO    : XML file of math representations deposited as /tmp/tmp4iasazhs/math-representations-speech.xml
+INFO    : converting source (/home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx) and clean representations (/tmp/tmp4iasazhs/math-representations-svg.xml) into EPUB files
+INFO    : XSL conversion of /home/sk/Desktop/KeplNewt/Kepl_planet/source/main.ptx by /home/sk/.ptx/xsl/pretext-epub.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/pretext-epub.xsl
+INFO    : attempting to construct cover image using LaTeX and ImageMagick
+INFO    : packaging an EPUB temporarily as Keplers_Planetary_Motion-svg.epub
+INFO    : EPUB file deposited as /home/sk/Desktop/KeplNewt/Kepl_planet/output/epub/main.epub
+INFO    : 
+Success! Run `pretext view` to see the results.
+

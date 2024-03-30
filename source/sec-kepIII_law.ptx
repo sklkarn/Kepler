@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-kepIII_law" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Derivation of Kepler's III Law</title>
+
+  <p> 
+    The total area of an ellipse is given by 
+    <men xml:id="eqn-kIII1">
+      A = \pi a b
+    </men>
+    Where a and b are semi-major and semi-mionor axes, respectively. Also from <xref ref="eqn-kII2"/>, we have -
+  
+    <md>
+      <mrow>or, \quad \frac{\,dA}{\,dt} \amp = \frac{L}{2m} </mrow>
+    </md>
+Since the direction of areal velocity is same as direction of angular momentum.
+
+<md>
+  <mrow>or, \quad \,dt \amp = \frac{2m}{L}\,dA </mrow>
+  <mrow>or, \quad \int_0^T\,dt \amp = \frac{2m}{L}\int_0^A\,dA </mrow>
+  <mrow>or, \quad T \amp =  \frac{2m}{L}A= \frac{2m}{L}  (\pi a b) = \frac{2\pi m}{L} [a (a\sqrt{1-e^2})] </mrow>
+ </md>
+using <xref ref="eqn-KI1"/>.
+
+<men xml:id="eqn-KIII2">
+  \therefore \quad T = \frac{2\pi m}{L} (a^2\sqrt{1-e^2})
+</men>
+
+<me>
+  or, \quad T^2 = \frac{4\pi^2 m^2}{L^2} [a^4 (1-e^2)] = \frac{4\pi^2 m^2}{L^2} [a^4 (\frac{l}{a})]
+</me>
+
+using <xref ref="eqn-newt16"/>
+
+<me>
+  or, \quad T^2 = \frac{4\pi^2 m^2}{L^2} [l a^3]
+</me>
+
+on using <xref ref="eqn-newt15"/>
+
+<me>
+  \therefore \quad T^2 = (\frac{4\pi^2}{GM}) a^3
+</me>
+
+<men xml:id="eqn-kIII3">
+  \therefore \quad T^2 \propto a^3
+</men>
+
+  </p>
+
+</section>

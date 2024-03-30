@@ -1,0 +1,13 @@
+INFO    : PreTeXt-CLI version: 2.3.9
+
+INFO    : PreTeXt project found in `/home/sk/Desktop/vscodes/Kepl_planet`.
+WARNING : Using CLI version 2.3.9 but project's `requirements.txt`
+WARNING : is configured to use 1.5.3. Consider either installing
+WARNING : CLI version 1.5.3 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.3.9.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `/home/sk/Desktop/vscodes/Kepl_planet/output/web` at `/home/sk/Desktop/vscodes/Kepl_planet/output/stage`.
+INFO    : 
+INFO    : Deployment is now staged at `/home/sk/Desktop/vscodes/Kepl_planet/output/stage`.
+INFO    : Initializing project with Git.

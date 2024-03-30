@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-kepII_law" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Derivation of Kepler's II Law</title>
+
+
+  <image source ="triangle.png" width="50%"> </image>
+
+  <p> 
+    The small area of a given triangle 
+
+
+    <md>
+      <mrow> \,dA \amp  = \frac{1}{2}r\,dr\sin\phi </mrow> 
+      <mrow> or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) </mrow>
+      <mrow> or, \quad \frac{\,d \vec{A}}{\,dt} \amp = \frac{1}{2}[\vec{r} \times \frac{\,d\vec{r}}{\,dt}] </mrow>
+    </md>
+
+        
+   <men xml:id="eqn-kII1">
+    \frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] 
+   </men>
+   
+  But from angular momentum, we have 
+  <me>
+    \vec{L}=m(\vec{r}\times\vec{v})
+  </me>
+  Therefore <xref ref="eqn-kII1"/> can be written as 
+
+  <me>
+    \frac{\,d\vec{A}}{\,dt} =  \frac{\vec{L}}{2m} 
+  </me>
+  and 
+
+  <me>
+   or, \quad  \vec{\dot{A}} =  \frac{1}{2m}\vec{L} 
+  </me>
+  again, 
+
+  <me>
+   \vec{\ddot{A}} =  \frac{\,d}{\,dt}(\vec{\dot{A}}) = \frac{1}{2m}(\frac{\,d}{\,dt}\vec{L}) = 0
+  </me>
+  
+  Since <m>L</m> is constant from conservation of angular momentum.
+  
+Therefore we can say 
+<men xml:id="eqn-kII2">
+  \vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = \frac{\vec{L}}{2m}  = constant.
+</men>
+That is areal velocity of planet is constant. 
+</p>
+</section>
