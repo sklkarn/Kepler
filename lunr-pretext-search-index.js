@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "sec-pol_cord.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Polar Coordinate",
-  "body": " Polar Coordinate    Here,    and Now  is perpendicular on   Therefore, we call   Also,   and,   Now,     Again,    "
+  "title": "Polar Coordinates",
+  "body": " Polar Coordinates    Here,    and Now  is perpendicular on   Therefore, we call   Also,   and,   Now,     Again,    "
 },
 {
   "id": "sec-kepI_law",
@@ -37,13 +37,31 @@ var ptx_lunr_docs = [
   "body": " In ellipse semi-major axis is the arithmatic mean of and . At and from . also semi-minor axis is a geometric mean of and .      "
 },
 {
+  "id": "sec-kepI_law-3",
+  "level": "2",
+  "url": "sec-kepI_law.html#sec-kepI_law-3",
+  "type": "Remark",
+  "number": "1.2.1",
+  "title": "Total Energy of Orbit.",
+  "body": " Total Energy of Orbit  Planetory orbits are closed so the total energy of orbit must be negative. Hence total energy, along the orbit. Here  using and . at perihelion position. you may try from apehelion position energy.     This is quadratic equation in (1+e). Here  Solving this equation, we get Hence, E is negative for   "
+},
+{
   "id": "sec-kepII_law",
   "level": "1",
   "url": "sec-kepII_law.html",
   "type": "Section",
   "number": "1.3",
   "title": "Derivation of Kepler’s II Law",
-  "body": " Derivation of Kepler's II Law    The small area of a given triangle  But from angular momentum, we have Therefore can be written as and by using and , also . Again, by using or . Therefore we can say That is areal velocity of planet is constant.  "
+  "body": " Derivation of Kepler's II Law    The small area of a given triangle   Proof of area of a triangle    From a given triangle Also, Therefore, from and , we have - Hence, and  using or, .   But from angular momentum, we have Therefore can be written as and by using and , also . Again, by using or . Therefore we can say That is areal velocity of planet is constant.  "
+},
+{
+  "id": "sec-kepII_law-3-2",
+  "level": "2",
+  "url": "sec-kepII_law.html#sec-kepII_law-3-2",
+  "type": "Remark",
+  "number": "1.3.1",
+  "title": "Proof of area of a triangle.",
+  "body": " Proof of area of a triangle    From a given triangle Also, Therefore, from and , we have - Hence, and  using or, .  "
 },
 {
   "id": "sec-kepIII_law",

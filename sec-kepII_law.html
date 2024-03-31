@@ -122,11 +122,8 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pol_cord.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polar Coordinate</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-kepI_law.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-kepI_law.html#subsec-kepI" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Total Energy of Orbit</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pol_cord.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-kepI_law.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div></li>
 <li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-kepII_law.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Derivation of Kepler’s II Law</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-kepIII_law.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Derivation of Kepler’s III Law</span></a></div></li>
 </ul>
@@ -139,32 +136,72 @@ window.MathJax = {
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/Triangle.png" class="contained"></div>
 <div class="para logical" id="sec-kepII_law-3">
 <div class="para">The small area of a given triangle</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-1">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-1">
 \begin{align*}
 \,dA \amp  = \frac{1}{2}r\,dr\sin\phi \\
 or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) \\
 or, \quad \frac{\,d \vec{A}}{\,dt} \amp = \frac{1}{2}[\vec{r} \times \frac{\,d\vec{r}}{\,dt}] 
 \end{align*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII1">
+<div class="para"><details id="sec-kepII_law-3-2" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Proof of area of a triangle.</span>
+</h3></summary><article class="remark remark-like knowl__content"> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/triangle.png" class="contained"></div> <div class="para logical" id="sec-kepII_law-3-2-3">
+<div class="para">From a given triangle</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html" id="eqn-area2">
 \begin{equation}
-\frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] \tag{1.3.1}
+\sin B = \frac{OC}{a} \Rightarrow OC = a\sin B\tag{1.3.1}
+\end{equation}
+</div>
+<div class="para">Also,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html" id="eqn-area3">
+\begin{equation}
+\sin A = \frac{OC}{b} \Rightarrow OC = b\sin A\tag{1.3.2}
+\end{equation}
+</div>
+<div class="para">Therefore, from <a href="sec-kepII_law.html#eqn-area2" class="xref" data-knowl="./knowl/xref/eqn-area2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.1">(1.3.1)</a> and <a href="sec-kepII_law.html#eqn-area3" class="xref" data-knowl="./knowl/xref/eqn-area3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.2">(1.3.2)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html">
+\begin{equation*}
+a \sin B = b\sin A 
+\end{equation*}
+</div>
+<div class="para">Hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html" id="eqn-area4">
+\begin{equation}
+\frac{\sin A}{a} = \frac{\sin B}{b} =\frac{\sin C}{c}\tag{1.3.3}
+\end{equation}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html">
+\begin{equation*}
+Area = \frac{1}{2}base\times height =  \frac{1}{2}c (OC) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html" id="eqn-Area1">
+\begin{equation}
+\therefore \quad Area =  \frac{1}{2}c b\sin A =  \frac{1}{2}c a\sin B =  \frac{1}{2}a b\sin C\tag{1.3.4}
+\end{equation}
+</div>
+<div class="para">using <a href="sec-kepII_law.html#eqn-area2" class="xref" data-knowl="./knowl/xref/eqn-area2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.1">(1.3.1)</a> or, <a href="sec-kepII_law.html#eqn-area3" class="xref" data-knowl="./knowl/xref/eqn-area3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.2">(1.3.2)</a>.</div>
+</div></article></details></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII1">
+\begin{equation}
+\frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] \tag{1.3.5}
 \end{equation}
 </div>
 <div class="para">But from angular momentum, we have</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
 \vec{L}=m(\vec{r}\times\vec{v})
 \end{equation*}
 </div>
-<div class="para">Therefore <a href="sec-kepII_law.html#eqn-kII1" class="xref" data-knowl="./knowl/xref/eqn-kII1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.1">(1.3.1)</a> can be written as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="para">Therefore <a href="sec-kepII_law.html#eqn-kII1" class="xref" data-knowl="./knowl/xref/eqn-kII1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.5">(1.3.5)</a> can be written as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
 \frac{\,d\vec{A}}{\,dt} =  \frac{\vec{L}}{2m} 
 \end{equation*}
 </div>
 <div class="para">and</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-6">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-7">
 \begin{align*}
 or, \quad  \vec{\dot{A}}  \amp  =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] \\
 \amp =  \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}] = \frac{1}{2}[r\hat{r}\times (\frac{Lr}{mr^2})\hat{\theta}] \\
@@ -172,15 +209,15 @@ or, \quad  \vec{\dot{A}}  \amp  =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\tim
 \end{align*}
 </div>
 <div class="para">by using <a href="sec-pol_cord.html#eqn-polar4" class="xref" data-knowl="./knowl/xref/eqn-polar4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.4">(1.1.4)</a> and <a href="sec-kepI_law.html#eqn-newt4" class="xref" data-knowl="./knowl/xref/eqn-newt4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.4">(1.2.4)</a>, also <span class="process-math">\(\vec{r}\times \hat{r} =0\text{.}\)</span> Again,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
 \vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{\,d}{\,dt}[\frac{L}{2m}] = 0
 \end{equation*}
 </div>
 <div class="para">by using <a href="sec-pol_cord.html#eqn-polar2" class="xref" data-knowl="./knowl/xref/eqn-polar2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.2">(1.1.2)</a> or <a href="sec-pol_cord.html#eqn-polar3" class="xref" data-knowl="./knowl/xref/eqn-polar3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.3">(1.1.3)</a>. Therefore we can say</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-area2.html ./knowl/xref/eqn-area3.html ./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII2">
 \begin{equation}
-\vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = constant.\tag{1.3.2}
+\vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = constant.\tag{1.3.6}
 \end{equation}
 </div>
 <div class="para">That is areal velocity of planet is constant.</div>

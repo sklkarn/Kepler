@@ -122,11 +122,8 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pol_cord.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polar Coordinate</span></a></div></li>
-<li class="toc-item toc-section active">
-<div class="toc-title-box"><a href="sec-kepI_law.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-kepI_law.html#subsec-kepI" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Total Energy of Orbit</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pol_cord.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-kepI_law.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-kepII_law.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Derivation of Kepler’s II Law</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-kepIII_law.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Derivation of Kepler’s III Law</span></a></div></li>
 </ul>
@@ -162,13 +159,12 @@ or, \quad  m (\ddot{r} -r\dot{\theta}^2)\hat{r} = -\frac{GMm}{r^2}\hat{r}
 <div class="para">From principle of conservation of angular momentum:</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar5.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt3.html ./knowl/xref/eqn-newt3.html" id="sec-kepI_law-2-3-6">
 \begin{align*}
-L \amp = \vec{r}\times\vec{p}\\
-\amp = m(\vec{r}\times\vec{v})\\
-\amp = m[\vec{r}\times(\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] \\
-\amp = m(r^2\dot{\theta})
+\vec{L} \amp =\vec{r}\times\vec{p} = m(\vec{r}\times\vec{v}) \\
+\amp   = m[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})]  \\
+\amp  = m[\vec{r}\times r\dot{\theta}\hat{\theta}] = mr^2[\hat{r}\times\dot{\theta}\hat{\theta}] = mr^2\dot{\theta} 
 \end{align*}
 </div>
-<div class="para">using <a href="sec-pol_cord.html#eqn-polar4" class="xref" data-knowl="./knowl/xref/eqn-polar4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.4">(1.1.4)</a> and <span class="process-math">\(\quad \because  \hat{r}\times\hat{\theta} = \sin(90)=1 \quad \)</span> and <span class="process-math">\(\quad \hat{r}\times\hat{r} = \sin(0)=0\)</span>
+<div class="para">using <a href="sec-pol_cord.html#eqn-polar4" class="xref" data-knowl="./knowl/xref/eqn-polar4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.4">(1.1.4)</a> and <span class="process-math">\(\quad \because  \hat{r}\times\hat{\theta} = \sin(90)=\hat{n} \quad \)</span> and <span class="process-math">\(\quad \hat{r}\times\hat{r} = \sin(0)=0\)</span>
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar5.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt3.html ./knowl/xref/eqn-newt3.html" id="eqn-newt4">
 \begin{equation}
@@ -348,10 +344,9 @@ or, \quad \frac{b^2}{a^2} = 1-e^2\tag{1.2.18}
 \therefore \quad e = \sqrt{1-\frac{b^2}{a^2}}\tag{1.2.19}
 \end{equation}
 </div>
-</div></article></details></section><section class="subsection" id="subsec-kepI"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Total Energy of Orbit</span>
-</h3>
-<div class="para logical" id="subsec-kepI-2">
+</div></article></details></section><details id="sec-kepI_law-3" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Total Energy of Orbit.</span>
+</h3></summary><article class="remark remark-like knowl__content"> <div class="para logical" id="sec-kepI_law-3-2">
 <div class="para">Planetory orbits are closed so the total energy of orbit must be negative. Hence total energy,</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt8.html">
 \begin{equation*}
@@ -372,14 +367,13 @@ or, \quad E = \frac{1}{2}m(\frac{h}{r_{min}})^2 -\frac{GMm}{r_{min}}
 \end{equation*}
 </div>
 <div class="para">at perihelion position. you may try from apehelion position energy.</div>
-</div>
-<div class="para logical" id="subsec-kepI-3">
+</div> <div class="para logical" id="sec-kepI_law-3-3">
 <div class="displaymath process-math">
 \begin{equation*}
 E = \frac{1}{2}mh^2 (\frac{1+e}{l})^2 -\frac{GMm(1+e)}{l}
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="subsec-kepI-3-2">
+<div class="displaymath process-math" id="sec-kepI_law-3-3-2">
 \begin{align*}
 or, E \amp =\frac{1}{2}mh^2 (\frac{G^2M^2m^4}{L^4})(1+e)^2 -\frac{G^2M^2m^3(1+e)}{L^2} \\
 or, E \amp = \frac{1}{2}\frac{G^2M^2m^3(1+e)^2}{L^2} -\frac{G^2M^2m^3(1+e)}{L^2}
@@ -405,7 +399,7 @@ E =-(1-e^2)\alpha/2
 </div>
 <div class="para">Hence, E is negative for <span class="process-math">\(0\lt e \lt 1.\)</span>
 </div>
-</div></section></section></div>
+</div></article></details></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-pol_cord.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-kepII_law.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
