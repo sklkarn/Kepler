@@ -3,6 +3,8 @@
 <section xml:id="sec-pol_cord" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polar Coordinate</title>
 
+  <image source ="polarCord.png" width="60%"> </image>
+  
   <p> Here, <m>\hat{r}=\hat{r}(\theta)</m> </p>
   <men xml:id="eqn-polar1">
     \hat{r} = \hat{x}\cos\theta + \hat{y}\sin\theta
@@ -18,9 +20,7 @@
   \Rightarrow \hat{r} 
  </m>
   is perpendicular on <m>\frac{d\hat{r}}{d\theta}.</m>
-
-  <image source ="polarCord.png" width="40%"> </image>
-  
+ 
   </p>
 
   <p>
@@ -37,7 +37,7 @@
       \frac{\,d\hat{\theta}}{\,d\theta}=-\hat{x}\cos\theta - \hat{y}\sin\theta =-\hat{r}
     </men>
   </p>
-
+  
   <p>
     Now, 
     <md>

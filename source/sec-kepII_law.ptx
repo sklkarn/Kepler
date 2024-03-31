@@ -3,13 +3,11 @@
 <section xml:id="sec-kepII_law" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Derivation of Kepler's II Law</title>
 
-
-  <image source ="triangle.png" width="50%"> </image>
+  <image source ="Triangle.png" width="60%"> </image>
 
   <p> 
     The small area of a given triangle 
-
-
+   
     <md>
       <mrow> \,dA \amp  = \frac{1}{2}r\,dr\sin\phi </mrow> 
       <mrow> or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) </mrow>
@@ -33,15 +31,16 @@
   and 
 
   <me>
-   or, \quad  \vec{\dot{A}} =  \frac{1}{2m}\vec{L} 
+   or, \quad  \vec{\dot{A}} =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] = 
+   \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}]=\frac{r^2}{2}(\hat{r}\times \dot{\theta}\hat{\theta})
   </me>
-  again, 
-
-  <me>
-   \vec{\ddot{A}} =  \frac{\,d}{\,dt}(\vec{\dot{A}}) = \frac{1}{2m}(\frac{\,d}{\,dt}\vec{L}) = 0
-  </me>
-  
-  Since <m>L</m> is constant from conservation of angular momentum.
+  using <xref ref="eqn-polar4"/>.  Again, 
+<md>
+  <mrow> \vec{\ddot{A}}  \amp   =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{r^2}{2}[\frac{\,d}{\,dt}(\hat{r}\times \dot{\theta}\hat{\theta})] </mrow> 
+  <mrow> \amp  = \frac{r^2}{2}[\frac{\,d\hat{r}}{\,d\theta}\frac{\,d\theta}{\,dt}\times\dot{\theta}\hat{\theta}]  </mrow>
+  <mrow> \amp = \frac{r^2\dot{\theta}}{2}[\hat{\theta}\times\hat{\theta}] </mrow>
+</md>
+  by using <xref ref="eqn-polar2"/> or <xref ref="eqn-polar3"/>.
   
 Therefore we can say 
 <men xml:id="eqn-kII2">
