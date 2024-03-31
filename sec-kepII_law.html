@@ -139,47 +139,48 @@ window.MathJax = {
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/Triangle.png" class="contained"></div>
 <div class="para logical" id="sec-kepII_law-3">
 <div class="para">The small area of a given triangle</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-1">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-1">
 \begin{align*}
 \,dA \amp  = \frac{1}{2}r\,dr\sin\phi \\
 or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) \\
 or, \quad \frac{\,d \vec{A}}{\,dt} \amp = \frac{1}{2}[\vec{r} \times \frac{\,d\vec{r}}{\,dt}] 
 \end{align*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII1">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII1">
 \begin{equation}
 \frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] \tag{1.3.1}
 \end{equation}
 </div>
 <div class="para">But from angular momentum, we have</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
 \vec{L}=m(\vec{r}\times\vec{v})
 \end{equation*}
 </div>
 <div class="para">Therefore <a href="sec-kepII_law.html#eqn-kII1" class="xref" data-knowl="./knowl/xref/eqn-kII1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.1">(1.3.1)</a> can be written as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
 \frac{\,d\vec{A}}{\,dt} =  \frac{\vec{L}}{2m} 
 \end{equation*}
 </div>
 <div class="para">and</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
-\begin{equation*}
-or, \quad  \vec{\dot{A}} =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] = 
-\frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}]=\frac{r^2}{2}(\hat{r}\times \dot{\theta}\hat{\theta})
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="sec-kepII_law-3-6">
+\begin{align*}
+or, \quad  \vec{\dot{A}}  \amp  =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] \\
+\amp =  \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}] = \frac{1}{2}[r\hat{r}\times (\frac{Lr}{mr^2})\hat{\theta}] \\
+\amp = \frac{L}{2m}[\hat{r}\times \hat{\theta}] = \frac{L}{2m} 
+\end{align*}
 </div>
-<div class="para">using <a href="sec-pol_cord.html#eqn-polar4" class="xref" data-knowl="./knowl/xref/eqn-polar4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.4">(1.1.4)</a>.  Again,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
+<div class="para">by using <a href="sec-pol_cord.html#eqn-polar4" class="xref" data-knowl="./knowl/xref/eqn-polar4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.4">(1.1.4)</a> and <a href="sec-kepI_law.html#eqn-newt4" class="xref" data-knowl="./knowl/xref/eqn-newt4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.4">(1.2.4)</a>, also <span class="process-math">\(\vec{r}\times \hat{r} =0\text{.}\)</span> Again,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html">
 \begin{equation*}
-\vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{r^2}{2}[\frac{\,d}{\,dt}(\hat{r}\times \dot{\theta}\hat{\theta})] =0
+\vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{\,d}{\,dt}[\frac{L}{2m}] = 0
 \end{equation*}
 </div>
 <div class="para">by using <a href="sec-pol_cord.html#eqn-polar2" class="xref" data-knowl="./knowl/xref/eqn-polar2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.2">(1.1.2)</a> or <a href="sec-pol_cord.html#eqn-polar3" class="xref" data-knowl="./knowl/xref/eqn-polar3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.1.3">(1.1.3)</a>. Therefore we can say</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-kII1.html ./knowl/xref/eqn-polar4.html ./knowl/xref/eqn-newt4.html ./knowl/xref/eqn-polar2.html ./knowl/xref/eqn-polar3.html" id="eqn-kII2">
 \begin{equation}
-\vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = \frac{\vec{L}}{2m}  = constant.\tag{1.3.2}
+\vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = constant.\tag{1.3.2}
 \end{equation}
 </div>
 <div class="para">That is areal velocity of planet is constant.</div>
