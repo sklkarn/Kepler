@@ -29,21 +29,21 @@
     \frac{\,d\vec{A}}{\,dt} =  \frac{\vec{L}}{2m} 
   </me>
   and 
-
+<md>
+  <mrow>  or, \quad  \vec{\dot{A}}  \amp  =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] </mrow>
+  <mrow> \amp =  \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}] = \frac{1}{2}[r\hat{r}\times (\frac{Lr}{mr^2})\hat{\theta}] </mrow>
+  <mrow> \amp = \frac{L}{2m}[\hat{r}\times \hat{\theta}] = \frac{L}{2m} </mrow>
+</md>
+by using <xref ref="eqn-polar4"/> and <xref ref="eqn-newt4"/>, also <m>\vec{r}\times \hat{r} =0</m>. Again, 
   <me>
-   or, \quad  \vec{\dot{A}} =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] = 
-   \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}]=\frac{r^2}{2}(\hat{r}\times \dot{\theta}\hat{\theta})
-  </me>
-  using <xref ref="eqn-polar4"/>.  Again, 
-  <me>
-    \vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{r^2}{2}[\frac{\,d}{\,dt}(\hat{r}\times \dot{\theta}\hat{\theta})] =0
+    \vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{\,d}{\,dt}[\frac{L}{2m}] = 0
   </me>
   
   by using <xref ref="eqn-polar2"/> or <xref ref="eqn-polar3"/>.
   
 Therefore we can say 
 <men xml:id="eqn-kII2">
-  \vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = \frac{\vec{L}}{2m}  = constant.
+  \vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = constant.
 </men>
 That is areal velocity of planet is constant. 
 </p>
