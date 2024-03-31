@@ -13,7 +13,39 @@
       <mrow> or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) </mrow>
       <mrow> or, \quad \frac{\,d \vec{A}}{\,dt} \amp = \frac{1}{2}[\vec{r} \times \frac{\,d\vec{r}}{\,dt}] </mrow>
     </md>
-
+<remark>
+  <title>Proof of area of a triangle</title>
+  <image source ="triangle.png" width="60%"> </image>
+  <p>
+    
+ 
+ From a given triangle
+ <men xml:id="eqn-area2">
+  \sin B = \frac{OC}{a} \Rightarrow OC = a\sin B
+ </men>
+ Also, 
+ <men xml:id="eqn-area3">
+  \sin A = \frac{OC}{b} \Rightarrow OC = b\sin A
+ </men>
+ Therefore, from <xref ref="eqn-area2"/> and <xref ref="eqn-area3"/>, we have -
+ <me>
+  a \sin B = b\sin A 
+ </me>
+ Hence, 
+ <men xml:id="eqn-area4">
+  \frac{\sin A}{a} = \frac{\sin B}{b} =\frac{\sin C}{c}
+ </men>
+and 
+ <me>
+  Area = \frac{1}{2}base\times height =  \frac{1}{2}c (OC) 
+ </me>
+ 
+ <men xml:id="eqn-Area1">
+  \therefore \quad Area =  \frac{1}{2}c b\sin A =  \frac{1}{2}c a\sin B =  \frac{1}{2}a b\sin C
+ </men>
+using <xref ref="eqn-area2"/> or, <xref ref="eqn-area3"/>.
+</p>
+</remark>
         
    <men xml:id="eqn-kII1">
     \frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] 
@@ -47,4 +79,5 @@ Therefore we can say
 </men>
 That is areal velocity of planet is constant. 
 </p>
+
 </section>

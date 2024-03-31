@@ -29,13 +29,13 @@ or, \quad  m (\ddot{r} -r\dot{\theta}^2)\hat{r} = -\frac{GMm}{r^2}\hat{r}
 From principle of conservation of angular momentum:
 
 <md>
-  <mrow> L \amp = \vec{r}\times\vec{p}</mrow>
-  <mrow>  \amp = m(\vec{r}\times\vec{v})</mrow>
-  <mrow> \amp = m[\vec{r}\times(\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] </mrow>
-  <mrow> \amp = m(r^2\dot{\theta})</mrow>
-</md>
+  <mrow> \vec{L} \amp =\vec{r}\times\vec{p} = m(\vec{r}\times\vec{v}) </mrow>
+  <mrow> \amp   = m[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})]  </mrow>
+  <mrow> \amp  = m[\vec{r}\times r\dot{\theta}\hat{\theta}] = mr^2[\hat{r}\times\dot{\theta}\hat{\theta}] = mr^2\dot{\theta} </mrow>
+ </md>
 
-using <xref ref="eqn-polar4"/> and <m>\quad \because  \hat{r}\times\hat{\theta} = \sin(90)=1 \quad </m> and <m>\quad \hat{r}\times\hat{r} = \sin(0)=0</m>
+
+using <xref ref="eqn-polar4"/> and <m>\quad \because  \hat{r}\times\hat{\theta} = \sin(90)=\hat{n} \quad </m> and <m>\quad \hat{r}\times\hat{r} = \sin(0)=0</m>
 <men xml:id="eqn-newt4">
   \therefore \dot{\theta} = \frac{L}{mr^2}
 </men>
@@ -193,7 +193,8 @@ and
 
 </introduction>
 
-<subsection xml:id="subsec-kepI">
+<remark>
+  
   <title>Total Energy of Orbit</title>
   <p>
     Planetory orbits are closed so the total energy of orbit must be negative. Hence total energy,
@@ -233,7 +234,7 @@ Solving this equation, we get
 Hence, E is negative for <m>0\lt e \lt 1.</m>
 </p>
 
-</subsection>
+</remark>
 
 
 </section>
