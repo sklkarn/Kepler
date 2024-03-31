@@ -35,11 +35,10 @@
    \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}]=\frac{r^2}{2}(\hat{r}\times \dot{\theta}\hat{\theta})
   </me>
   using <xref ref="eqn-polar4"/>.  Again, 
-<md>
-  <mrow> \vec{\ddot{A}}  \amp   =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{r^2}{2}[\frac{\,d}{\,dt}(\hat{r}\times \dot{\theta}\hat{\theta})] </mrow> 
-  <mrow> \amp  = \frac{r^2}{2}[\frac{\,d\hat{r}}{\,d\theta}\frac{\,d\theta}{\,dt}\times\dot{\theta}\hat{\theta}]  </mrow>
-  <mrow> \amp = \frac{r^2\dot{\theta}}{2}[\hat{\theta}\times\hat{\theta}] </mrow>
-</md>
+  <me>
+    \vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{r^2}{2}[\frac{\,d}{\,dt}(\hat{r}\times \dot{\theta}\hat{\theta})] =0
+  </me>
+  
   by using <xref ref="eqn-polar2"/> or <xref ref="eqn-polar3"/>.
   
 Therefore we can say 
