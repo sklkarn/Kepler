@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Polar Coordinate",
-  "body": " Polar Coordinate  Here,    and Now  is perpendicular on     Therefore, we call   Also,   and,   Now,     Again,    "
+  "body": " Polar Coordinate    Here,    and Now  is perpendicular on   Therefore, we call   Also,   and,   Now,     Again,    "
 },
 {
   "id": "sec-kepI_law",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Derivation of Kepler’s II Law",
-  "body": " Derivation of Kepler's II Law    The small area of a given triangle  But from angular momentum, we have Therefore can be written as and again, Since is constant from conservation of angular momentum. Therefore we can say That is areal velocity of planet is constant.  "
+  "body": " Derivation of Kepler's II Law    The small area of a given triangle  But from angular momentum, we have Therefore can be written as and using . Again, by using or . Therefore we can say That is areal velocity of planet is constant.  "
 },
 {
   "id": "sec-kepIII_law",
